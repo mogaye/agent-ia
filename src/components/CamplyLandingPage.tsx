@@ -559,16 +559,7 @@ export const CamplyLandingPage: React.FC<CamplyLandingPageProps> = ({
           
           {/* Colonne Gauche : Titre + Sparkle Burst + Boutons Pilules */}
           <div className="lg:col-span-6 space-y-5 sm:space-y-7 text-left">
-            <RevealOnScroll animation="fade-down" delayMs={40}>
-              <div className="inline-flex items-center gap-2 text-xs font-bold text-[#0052CC]">
-                <Globe className="w-4 h-4" />
-                <span>
-                  {isEn
-                    ? `Global WhatsApp AI Platform · Multi-Currency (${currency})`
-                    : `Plateforme IA WhatsApp Internationale · Multi-Devises (${currency})`}
-                </span>
-              </div>
-            </RevealOnScroll>
+
 
             <RevealOnScroll animation="fade-left" delayMs={80}>
               <h1 className="text-3xl sm:text-5xl lg:text-[54px] font-extrabold text-slate-950 tracking-tight font-display leading-[1.14]">
