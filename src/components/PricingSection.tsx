@@ -154,13 +154,7 @@ export const PricingSection: React.FC<PricingSectionProps> = ({ onSelectPlan }) 
   ];
 
   const handlePlanClick = (p: typeof plans[0]) => {
-    setSelectedPlanToPay({
-      id: p.id,
-      name: `${isEn ? 'Subscription' : 'Abonnement'} ${p.name} (SMG Flow)`,
-      priceFCFA: p.priceFCFA,
-      priceEUR: p.priceEUR,
-      credits: p.creditsNum
-    });
+    onSelectPlan(p.id);
   };
 
   return (
@@ -296,23 +290,6 @@ export const PricingSection: React.FC<PricingSectionProps> = ({ onSelectPlan }) 
         ))}
       </div>
 
-
-
-      {/* Checkout Modal */}
-      {selectedPlanToPay && (
-        <PayDunyaModal
-          isOpen={Boolean(selectedPlanToPay)}
-          onClose={() => setSelectedPlanToPay(null)}
-          itemName={selectedPlanToPay.name}
-          itemPriceFCFA={selectedPlanToPay.priceFCFA}
-          itemPriceEUR={selectedPlanToPay.priceEUR}
-          planId={selectedPlanToPay.id}
-          creditsAdded={selectedPlanToPay.credits}
-          onPaymentSuccess={() => {
-            onSelectPlan(selectedPlanToPay.id);
-          }}
-        />
-      )}
     </section>
   );
 };
