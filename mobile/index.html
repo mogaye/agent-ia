@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="fr" class="h-full bg-slate-950 text-slate-100 antialiased select-none">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <meta name="theme-color" content="#070E1A" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="SMG Flow" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%2310B981'><path d='M12 2C6.48 2 2 6.48 2 12c0 2.17.7 4.19 1.94 5.86L2.8 22l4.31-1.12C8.68 21.57 10.28 22 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2z'/></svg>" />
+    <title>SMG Flow Mobile</title>
+    <style>
+      /* Prevent iOS bounce & pull-to-refresh on background */
+      html, body {
+        overscroll-behavior-y: none;
+        -webkit-tap-highlight-color: transparent;
+      }
+      /* Safe area insets for notches & home bars */
+      .pt-safe {
+        padding-top: env(safe-area-inset-top, 0px);
+      }
+      .pb-safe {
+        padding-bottom: env(safe-area-inset-bottom, 0px);
+      }
+    </style>
+  </head>
+  <body class="h-full w-full overflow-hidden bg-[#070E1A] text-slate-100 font-sans">
+    <div id="root" class="h-full w-full flex flex-col"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

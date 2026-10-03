@@ -1,0 +1,20 @@
+{
+  "appId": "pro.smgflow.mobile",
+  "appName": "SMG Flow",
+  "webDir": "dist",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https",
+    "cleartext": true
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 2000,
+      "backgroundColor": "#070E1A",
+      "showSpinner": true,
+      "androidSpinnerStyle": "small",
+      "iosSpinnerStyle": "small",
+      "spinnerColor": "#10B981"
+    }
+  }
+}

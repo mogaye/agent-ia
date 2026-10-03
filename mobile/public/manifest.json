@@ -1,0 +1,26 @@
+{
+  "id": "/mobile",
+  "name": "SMG Flow Mobile",
+  "short_name": "SMG Flow",
+  "description": "Plateforme Mobile IA & Passerelle WhatsApp Multi-Appareils pour l'Afrique de l'Ouest",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#070E1A",
+  "theme_color": "#070E1A",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192' fill='%2310B981'><rect width='192' height='192' rx='42' fill='%23064E3B'/><path d='M96 36C62.8 36 36 62.8 36 96c0 13.1 4.2 25.2 11.6 35.2L41 156l25.8-6.7C76.4 153.8 86 156 96 156c33.2 0 60-26.8 60-60s-26.8-60-60-60z' fill='%2310B981'/><path d='M82 72h32c3.3 0 6 2.7 6 6v36c0 3.3-2.7 6-6 6H82c-3.3 0-6-2.7-6-6V78c0-3.3 2.7-6 6-6z' fill='white'/></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512' fill='%2310B981'><rect width='512' height='512' rx='112' fill='%23064E3B'/><path d='M256 96C167.5 96 96 167.5 96 256c0 35 11.2 67.2 31 93.9L109 416l68.8-17.9c25.1 12 50.7 17.9 78.2 17.9 88.5 0 160-71.5 160-160S344.5 96 256 96z' fill='%2310B981'/></svg>",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "AetherOS - Système d\u0027Exploitation IA pour Entreprises finale3",
+  "description": "Plateforme SaaS futuriste permettant à chaque entreprise de créer, configurer en langage naturel et piloter son agent IA personnalisé avec base de connaissances privée et actions autonomes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
